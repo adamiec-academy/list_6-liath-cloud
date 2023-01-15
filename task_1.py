@@ -1,6 +1,6 @@
 from random import shuffle
 
-def generate_assignemnts(previous_assignment, coders):
+def generate_assignments(previous_assignment, coders):
     coders_values = coders[:]
     new_assignment = {}
     check = 1
