@@ -6,7 +6,7 @@ def generate_assignments(previous_assignment, coders):
     check = 1
 
     while check != 0:
-        random.shuffle(coders_values)
+        shuffle(coders_values)
         check = 0
 
         for j in range(len(coders)):
